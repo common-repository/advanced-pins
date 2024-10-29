@@ -1,0 +1,58 @@
+
+.apx-col-75 { width: 74.5%; display: inline-block; }
+.apx-col-50 { width: 49.5%; display: inline-block; }
+.apx-col-25 { width: 24.5%; display: inline-block; }
+
+#wpwrap, #wpbody-content, #wpbody { background: #fff !important;}
+#wpfooter, .update-nag { display: none !important;}
+
+.apx-hidden { display: none; }
+
+.apx-flex-wrap { display: flex; flex-flow: row nowrap; justify-content: space-between; align-items: center;}
+
+.apx-top-container { border: 1px solid black; }
+
+.apx-template { display: none; }
+
+.apx-panel-head { display: flex; flex-flow: row nowrap; justify-content: space-around; align-items: center; border: 1px solid black; padding: 10px;}
+
+.apx-panel-body { display: none; flex-flow: column nowrap; align-items: center; justify-content: space-between; padding: 15px;}
+
+
+.error, .notice { display: none; }
+#apx-logo-wrap { margin: 0 auto; max-width: 1200px; }
+#apx-logo { width: auto;  max-width: 300px; }
+
+/* Title and save button. */
+#apx-settings-page { display: flex; }
+#apx-settings-page h2 { line-height: 50px; text-align: center; font-size: 32px; letter-spacing: 1.2px; font-weight: normal; }
+#apx-title-box { display: flex; justify-content: space-between; width: 600px; margin: 0 auto; }
+#apx-title-box #submit { width: 200px;  height: 50px; font-size: 24px;  }
+
+/* The settings <form> */
+#apx-settings-page form { max-width: 75%; margin: 0 auto; }
+#apx-settings-page table { margin: 0 auto; }
+#apx-settings-page table tbody { display: flex; flex-flow: row wrap; justify-content: space-evenly; align-items: center; }
+#apx-settings-page table tr { box-shadow: 0 0 4px  #e1e1e1; padding: 5px 15px; height: 300px; flex: 0 0 40%; margin: 10px; }
+#apx-settings-page table tr th {font-size: 24px; letter-spacing: 1px; font-weight: normal; vertical-align: middle; width: 100%; }
+#apx-settings-page table td { display: flex; justify-content: flex-end; align-content: center; flex-flow: column; }
+#apx-settings-page table th, 
+#apx-settings-page table td { padding: 30px 0; }
+#apx-settings-page table td > * { height: 50px;}
+
+#apx-settings-page p { font-size: 18px !important; }
+#apx-footer h3 { display: inline; }
+#apx-contact-us { font-size: 18px !important; display: inline; }
+
+#apx-hover-preview { max-width: 100%; }
+/* Generic selector for all controls */
+div[class^=apx][class$=controls] { display: flex; flex-flow: row nowrap; justify-content: space-between; align-items: center;}
+
+.apx-meta-section { border-bottom: 1px solid #00000047; padding-bottom: 45px; }
+.apx-meta-head { display: flex; flex-flow: row nowrap; justify-content: space-between; align-items: center; }
+
+.apx-meta-section label { width: 200px; display: inline-block; font-weight: bold;}
+
+.apx-meta-section input,
+.apx-meta-section textarea { display: inline-block; width: 400px; }
+

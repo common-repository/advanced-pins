@@ -1,0 +1,42 @@
+[id^=apx], /* All APX ids and classes. */ 
+[class$=apx-] { transition: all 200ms; box-sizing: border-box; }
+
+
+[data-hidden-gallery],
+[data-hidden-pin]  { display: none; }
+
+#apx-hover-pin-button {
+  background: #E60023;
+  color: white;
+  z-index: 1000;
+  position: absolute;
+  cursor: pointer;
+  box-shadow: none;
+  text-align: center;
+}
+
+.apx-classic {
+  width: 68px;
+  height: 28px;
+  line-height: 26px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.apx-bold {
+  width: 200px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 40px;
+}
+
+.apx-round {
+  max-width: 24px;
+  max-height: 24px;
+  border-radius: 50%;
+}
+
+.apx-round img {
+  max-width: 100%;
+  max-height: 100%;
+}
